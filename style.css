@@ -1,0 +1,58 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  #app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  input[type="text"],
+  button {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: white;
+    color: black;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #444;
+  }
+  
+  table th,
+  table td {
+    color: white;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #333;
+  }
+  
+  table tbody tr:hover {
+    background-color: #555;
+  }
+  
